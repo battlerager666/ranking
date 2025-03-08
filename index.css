@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: white;
+    background-color: rgb(59, 6, 6);
     color: rgb(60, 60, 60);
     font-family: fantasy;
 
@@ -62,4 +62,20 @@ section {
 }
 #_UlAlleBegriffe li:nth-child(odd){
     background: rgb(224, 224, 224);
+}
+
+#_buttonAuswahlLinks, #_buttonAuswahlRechts{
+    height: 10rem;
+    width: 15rem;
+    margin: 4rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+}
+#buttonAuswahlLinks:hover, #buttonAuswahlRechts:hover{
+    background-color: rgb(156, 99, 14);
+}
+
+#_buttonNeueAuswahl{
+    height: 3rem;
+    width: 5rem;
 }
