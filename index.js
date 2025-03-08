@@ -22,7 +22,10 @@ const storageProxy = new Proxy({}, {
     }
 })
 
-alleBegriffe = storageProxy.alleBegriffe;
+
+if(storageProxy.alleBegriffe){
+    alleBegriffe = storageProxy.alleBegriffe;
+}
 
 
 // Testobjekte hinzufügen (nur wenn `alleBegriffe` leer ist)
